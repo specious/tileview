@@ -1,3 +1,7 @@
+![screenshot](https://lh3.googleusercontent.com/0ZHaeOF99rdxL_x6ofZZ35xaATB4x87O3aEPu5xVSR0hy3YOj7JkaF0EYJgICVn7W4tdMePrfw=s640-h400-e365-rw)
+
+**Get the [latest release](https://chrome.google.com/webstore/detail/ajcjkemninihecbgljahanflndoeggao) from the Chrome Web Store.**
+
 ## Features
 
 An extension for [Google Chrome](http://www.google.com/chrome/) that helps you check if an image tiles seamlessly as a repeating background texture or wallpaper.
