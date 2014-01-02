@@ -14,10 +14,6 @@ Get started with Chrome extension development here:
 
 * [Developer's Guide](http://developer.chrome.com/extensions/devguide.html)
 
-## Known Issues
-
-* Does not currently work for [data URI](http://css-tricks.com/data-uris/) images
-
 ## Credits
 
 * [Icon](http://icons.mysitemyway.com/legacy-icon/019308-green-jelly-icon-symbols-shapes-tile1-ps/) from [icons.mysitemyway.com](http://icons.mysitemyway.com/)
