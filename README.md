@@ -2,11 +2,16 @@
 
 **Get the [latest release](https://chrome.google.com/webstore/detail/ajcjkemninihecbgljahanflndoeggao) from the Chrome Web Store.**
 
-## Features
+## Description
 
 An extension for [Google Chrome](http://www.google.com/chrome/) that helps you check if an image tiles seamlessly as a repeating background texture or wallpaper.
 
 Adds a context menu item to view image as wallpaper in a new tab.
+
+## Features
+
+* Interactive slider lets you preview the wallpaper at different scales
+* Works on animated gifs
 
 ## Development
 

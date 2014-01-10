@@ -1,16 +1,34 @@
 <!doctype html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
   <title>Tile View</title>
   <style>
     body {
       width: 9000px;
       height: 9000px;
     }
+    #overlay {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 12%;
+      background-color: rgba(0, 0, 0, 0.2);
+      transition: all 0.2s ease-in-out;
+    }
+    #overlay:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    #scale {
+      display: block;
+      width: 80%;
+      margin: 20px auto;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
+  <div id="overlay">
+    <input id="scale" type="range" min="5" max="400" value="100">
+  </div>
   <script src="view.js"></script>
 </body>
 </html>

@@ -6,4 +6,18 @@ function getParam( name ) {
   return match && decodeURIComponent(match[1]);
 }
 
-document.body.style.background = "url(" + getParam( 'url' ) + ") repeat 0 0";
+var url = getParam( 'url' ), w;
+
+(function () {
+  var img = new Image();
+  img.src = url;
+  img.onload = function () {
+    w = img.width;
+
+    document.getElementById('scale').addEventListener( "change", function( e ) {
+      document.body.style.backgroundSize = Math.round(e.target.value * 0.01 * w) + "px";
+    } );
+  }
+})();
+
+document.body.style.background = "url(" + url + ") repeat 0 0";
