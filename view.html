@@ -6,12 +6,15 @@
       width: 9000px;
       height: 9000px;
     }
-    #overlay {
+    #controls {
       position: fixed;
       left: 0;
       right: 0;
-      bottom: 12%;
+      bottom: 2%;
+    }
+    #overlay {
       background-color: rgba(0, 0, 0, 0.2);
+      padding: 20px 0;
       transition: all 0.2s ease-in-out;
     }
     #overlay:hover {
@@ -20,14 +23,33 @@
     #scale {
       display: block;
       width: 80%;
-      margin: 20px auto;
+      margin: 0 auto;
       cursor: pointer;
+    }
+    #save img {
+      width: 70px;
+      border-radius: 100%;
+      border: 2px black solid;
+      box-shadow: 0 2px 20px #000;
+      display: block;
+      margin: 12px auto;
+      opacity: 0.88;
+      transition: all 0.2s ease-in-out;
+    }
+    #save img:hover {
+      border: 2px orange solid;
+      opacity: 1;
     }
   </style>
 </head>
 <body>
-  <div id="overlay">
-    <input id="scale" type="range" min="5" max="400" value="100">
+  <div id="controls">
+    <div id="overlay">
+      <input id="scale" type="range" min="5" max="400" value="100">
+    </div>
+    <a id="save" title="Download">
+      <img src="gfx/download.png">
+    </a>
   </div>
   <script src="view.js"></script>
 </body>

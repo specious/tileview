@@ -8,6 +8,9 @@ function getParam( name ) {
 
 var url = getParam( 'url' ), w;
 
+//
+// Retrieve image dimensions and activate zoom slider
+//
 (function () {
   var img = new Image();
   img.src = url;
@@ -20,4 +23,14 @@ var url = getParam( 'url' ), w;
   }
 })();
 
+//
+// Set image as wallpaper
+//
 document.body.style.background = "url(" + url + ") repeat 0 0";
+
+//
+// Activate save button
+//
+var link = document.getElementById('save');
+link.href = url;
+link.download = "";

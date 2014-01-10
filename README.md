@@ -12,6 +12,7 @@ Adds a context menu item to view image as wallpaper in a new tab.
 
 * Interactive slider lets you preview the wallpaper at different scales
 * Works on animated gifs
+* Click button to save image after previewing
 
 ## Development
 
@@ -21,7 +22,7 @@ Get started with Chrome extension development here:
 
 ## Credits
 
-* [Icon](http://icons.mysitemyway.com/legacy-icon/019308-green-jelly-icon-symbols-shapes-tile1-ps/) from [icons.mysitemyway.com](http://icons.mysitemyway.com/)
+* [Tiles icon](http://icons.mysitemyway.com/legacy-icon/019308-green-jelly-icon-symbols-shapes-tile1-ps/) and [download icon](http://icons.mysitemyway.com/legacy-icon/105120-3d-glossy-orange-orb-icon-arrows-arrow-thick-down/) from [icons.mysitemyway.com](http://icons.mysitemyway.com/)
 
 ## License
 
