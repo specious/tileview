@@ -3,7 +3,7 @@
 
   "name": "Tile View",
   "description": "An easy way to preview images to see if they tile seamlessly as a repeating background texture or wallpaper.",
-  "version": "0.2",
+  "version": "0.2.1",
   "author": "Ildar Sagdejev",
   "icons": {
     "16": "gfx/icon-16.png",
