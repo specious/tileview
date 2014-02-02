@@ -1,4 +1,6 @@
-![screenshot](https://lh3.googleusercontent.com/0ZHaeOF99rdxL_x6ofZZ35xaATB4x87O3aEPu5xVSR0hy3YOj7JkaF0EYJgICVn7W4tdMePrfw=s640-h400-e365-rw)
+## Download
+
+![screenshot](http://specious.github.io/tileview/screenshot.png)
 
 **Get the [latest release](https://chrome.google.com/webstore/detail/ajcjkemninihecbgljahanflndoeggao) from the Chrome Web Store.**
 
