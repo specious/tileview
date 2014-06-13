@@ -17,7 +17,7 @@ var url = getParam( 'url' ), w;
   img.onload = function () {
     w = img.width;
 
-    document.getElementById('scale').addEventListener( "change", function( e ) {
+    document.getElementById('scale').addEventListener( "input", function( e ) {
       document.body.style.backgroundSize = Math.round(e.target.value * 0.01 * w) + "px";
     } );
   }
