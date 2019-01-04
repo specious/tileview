@@ -12,6 +12,6 @@ chrome.contextMenus.create( {
 
 function clicked( info ) {
   chrome.tabs.create( {
-    url: chrome.extension.getURL( 'view.html?url=' + info.srcUrl )
+    url: chrome.extension.getURL( 'view.html?url=' + encodeURIComponent( info.srcUrl ) )
   } );
 }
